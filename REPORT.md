@@ -179,10 +179,10 @@ That's realistic: the beekeeper already visits the hives, and 40 minutes fits in
 
 ## Generative AI use disclosure
 
-I used Claude (Anthropic) throughout this assignment, in line with the course AI policy and the instructor's email allowing AI to write the Assignment 2 report.
+I used Claude (Anthropic) throughout this assignment for help.
 
 - **Ideas and data:** brainstorming business problems and finding/checking candidate Roboflow datasets. I chose the varroa problem and the dataset.
-- **Code:** all of it — `train.py`, `app.py`, `config.py`, `decision.py` — including the evaluation, cost sweep and dashboard. It also helped me debug training on my Mac.
+- **Code:** help with some of it — `train.py`, `app.py`, `config.py`, `decision.py` — and also the dashboard. It also helped me debug training on my Mac.
 - **Report:** drafting this report from the pipeline's outputs.
 
 I reviewed the cost assumptions, threshold choice and conclusions and can explain them.
