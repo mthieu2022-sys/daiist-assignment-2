@@ -1,0 +1,27 @@
+{
+  "labels": [
+    "bee",
+    "varroa",
+    "background"
+  ],
+  "matrix": [
+    [
+      602,
+      1,
+      90
+    ],
+    [
+      1,
+      1523,
+      198
+    ],
+    [
+      667,
+      407,
+      0
+    ]
+  ],
+  "note": "rows = true, cols = predicted; boxes at conf >= 0.25, IoU >= 0.5",
+  "ultralytics_test_mAP50": 0.8322626839053822,
+  "ultralytics_test_mAP50_95": 0.48463156480862074
+}

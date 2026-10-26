@@ -1,0 +1,63 @@
+{
+  "classes": [
+    "bee",
+    "varroa"
+  ],
+  "splits": {
+    "train": {
+      "images": 4621,
+      "instances": {
+        "bee": 6067,
+        "varroa": 12122
+      },
+      "images_with_class": {
+        "bee": 1207,
+        "varroa": 3574
+      },
+      "empty_images": 20,
+      "positive_image_share": 0.7734256654403808
+    },
+    "val": {
+      "images": 1321,
+      "instances": {
+        "bee": 1692,
+        "varroa": 3699
+      },
+      "images_with_class": {
+        "bee": 383,
+        "varroa": 999
+      },
+      "empty_images": 7,
+      "positive_image_share": 0.7562452687358062
+    },
+    "test": {
+      "images": 660,
+      "instances": {
+        "bee": 693,
+        "varroa": 1722
+      },
+      "images_with_class": {
+        "bee": 170,
+        "varroa": 518
+      },
+      "empty_images": 5,
+      "positive_image_share": 0.7848484848484848
+    }
+  },
+  "object_size": {
+    "bee": {
+      "median_rel_area_pct": 1.3576660156250002,
+      "p10_rel_area_pct": 0.331298828125,
+      "p90_rel_area_pct": 56.50947265625001,
+      "median_side_px_at_640": 74.57211275000864,
+      "share_small_lt_32px_at_640": 0.03052531945101751
+    },
+    "varroa": {
+      "median_rel_area_pct": 0.3896484375,
+      "p10_rel_area_pct": 0.05566406249999999,
+      "p90_rel_area_pct": 1.1900390625000008,
+      "median_side_px_at_640": 39.949968710876355,
+      "share_small_lt_32px_at_640": 0.31300233711451864
+    }
+  }
+}

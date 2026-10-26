@@ -1,0 +1,50 @@
+{
+  "t_star": 0.33,
+  "single": {
+    "threshold": 0.33,
+    "recall": 0.9884169884169884,
+    "fpr": 0.04225352112676056,
+    "TP": 512.0,
+    "FN": 6.0,
+    "FP": 6.0,
+    "TN": 136.0,
+    "cost_per_1000": 2911.142530860841,
+    "review_share": 0.0,
+    "missed_per_1000": 1.1583011583011582,
+    "false_treat_per_1000": 38.028169014084504
+  },
+  "band_low": 0.28,
+  "band_high": 0.65,
+  "band": {
+    "cost_per_1000": 2618.1793463483605,
+    "review_share": 0.04404535320028278,
+    "missed_per_1000": 0.7722007722007722,
+    "false_treat_per_1000": 12.67605633802817
+  },
+  "staffing": {
+    "cases_per_day": 80.0,
+    "reviews_per_day": 3.523628256022622,
+    "review_hours_per_day": 0.7047256512045245,
+    "people_needed": 0.11745427520075408
+  },
+  "policies_cost_per_1000": {
+    "Do nothing (never treat)": 15000.0,
+    "Treat every hive": 20000.0,
+    "Person checks every hive": 8000.0,
+    "Model alone (t=0.33)": 2911.142530860841,
+    "Model + review (0.28-0.65)": 2618.1793463483605
+  },
+  "assumptions": {
+    "COST_FN": 150.0,
+    "COST_FP": 20.0,
+    "COST_TP": 20.0,
+    "COST_TN": 0.0,
+    "COST_REVIEW": 6.0,
+    "BASE_RATE": 0.1,
+    "N_HIVES": 400,
+    "CHECKS_PER_HIVE_PER_WEEK": 1,
+    "WORKDAYS_PER_WEEK": 5,
+    "REVIEW_MINUTES": 12,
+    "PRODUCTIVE_HOURS_PER_DAY": 6
+  }
+}
